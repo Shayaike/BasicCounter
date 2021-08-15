@@ -18,7 +18,7 @@ function main() {
         if (addSub === "+") {
             display.innerText = Number(e) + Number(display.innerText)
         } else if (addSub === "-") {
-            display.innerText = Number(display.value) - Number(e)
+            display.innerText = Number(display.innerText) - Number(e)
         }
     }
 
