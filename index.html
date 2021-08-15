@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+
+<head>
+    <title>Basic Counter</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="top-left center">
+                <div class="counter">
+                    <h1 id="counter">0</h1>
+                    <h2>Count</h1>
+                </div>
+            </div>
+            <div class="top-right">
+                <div class="top-right--top">
+                    <label for="initialValue">Initial Value</label>
+                    <input type="number" id="initialValue" value="0">
+                    <input class="ml-1" type="button" id="initialValueSet" value="Set">
+                </div>
+                <div class="top-right--bottom">
+                    <div class="top-right--bottom-left">
+                        <input name="addSub" type="radio" value="+" checked id="add">
+                        <label for="add">Add</label>
+                    </div>
+                    <div class="top-right--bottom-right">
+                        <input name="addSub" type="radio" value="-" id="sub">
+                        <label for="sub">Sub</label>
+                    </div>
+                </div>
+                <div class="middle">
+                    <div class="middle-left">
+                        <input type="button" name="intervalNumber" id="1" value="1" />
+                    </div>
+                    <div class="middle-center">
+                        <input type="button" name="intervalNumber" id="5" value="5" />
+                    </div>
+                    <div class="middle-right">
+                        <input type="button" name="intervalNumber" id="10" value="10">
+                    </div>
+                </div>
+                <div class="bottom">
+                    <label for="customValue">Custom Value</label>
+                    <input type="number" id="customValue">
+                    <input class="ml-1" type="button" id="customValueSet" value="calculate">
+                </div>
+                <div class="space-1"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
